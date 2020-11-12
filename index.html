@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UI Design Login Registration</title>
+    <!-- Bootstrap 4 cdn -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- Font awsome cdn -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container ">
+        <div class="row sdiv">
+
+            <!------------------------- First Div Starts ------------------------------------------------>
+
+            <div class="col-md-4 offset-md-2 text-center bg-light">
+                <i class="fa fa-user fa-3x m-3"></i>
+                <h2>Sign Up</h2>
+
+                <!-- Copied the 2nd div from bootstrap 4 forms -> Auto-sizing -->
+
+                <div class="col-auto m-3">
+                    <label class="sr-only" for="inlineFormInputGroup1">Username</label>
+                    <div class="input-group mb-2">
+                        <div class="input-group-prepend">
+                            <div class="input-group-text"><i class="fa fa-user"></i></div>
+                        </div>
+                        <input type="text" class="form-control" id="inlineFormInputGroup1"
+                            placeholder="Enter your name">
+                    </div>
+                </div>
+
+                <div class="col-auto m-3">
+                    <label class="sr-only" for="inlineFormInputGroup2">Username</label>
+                    <div class="input-group mb-2">
+                        <div class="input-group-prepend">
+                            <div class="input-group-text"><i class="fa fa-envelope-o"></i></div>
+                        </div>
+                        <input type="email" class="form-control" id="inlineFormInputGroup2" placeholder="Email id">
+                    </div>
+                </div>
+
+                <div class="col-auto m-3">
+                    <label class="sr-only" for="inlineFormInputGroup3">Username</label>
+                    <div class="input-group mb-2">
+                        <div class="input-group-prepend">
+                            <div class="input-group-text"><i class="fa fa-lock"></i></div>
+                        </div>
+                        <input type="password" class="form-control" id="inlineFormInputGroup3" placeholder="Password">
+                    </div>
+                </div>
+
+                <div class="col-auto m-3">
+                    <label class="sr-only" for="inlineFormInputGroup4">Username</label>
+                    <div class="input-group mb-2">
+                        <div class="input-group-prepend">
+                            <div class="input-group-text"><i class="fa fa-lock"></i></div>
+                        </div>
+                        <input type="text" class="form-control" id="inlineFormInputGroup4"
+                            placeholder="Confirm Password">
+                    </div>
+                </div>
+
+                <div class="button-container text-center p-3">
+                    <buttion class="btn btn-success badge-pill btn-lg ">Sign Up</buttion>
+                </div>
+
+            </div>
+
+            <!------------------------- First Div Ends ------------------------------------------------>
+
+
+            <!------------------------- Second Div Starts ------------------------------------------------>
+            <!-- Second div is for Social Media Login -->
+
+
+            <div class="col-md-4 text-center socialdiv">
+
+                <h2 class="mt-3 text-white">Sign in With <br/> Social Media </h2>
+
+                <button class="btn btn-primary m-2 mt-5"><i class="fa fa-facebook"></i> Login with Facebook</button><br>
+                <button class="btn btn-warning m-2"><i class="fa fa-instagram"></i> Login with Instagram</button><br>
+                <button class="btn btn-danger m-2"><i class="fa fa-google-plus"></i> Login with Google+</button>
+
+            </div>
+
+            <!------------------------- Second Div Endss ------------------------------------------------>
+        </div>
+    </div>
+
+</body>
+
+</html>
